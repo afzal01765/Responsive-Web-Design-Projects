@@ -1,0 +1,115 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    width: 90%;
+    align-items: center;
+}
+
+.left-section {
+    flex: 1;
+}
+
+.left-section h1 {
+    color: #1877f2;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.left-section p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.login-box {
+    background: #fff;
+    padding: 20px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.create-btn {
+    width: 100%;
+    padding: 12px;
+    background: #42b72a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left-section {
+        margin-bottom: 20px;
+    }
+
+    .left-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .left-section p {
+        font-size: 1rem;
+    }
+}
